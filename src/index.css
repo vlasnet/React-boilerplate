@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i&subset=cyrillic');
+
+/* ~~~ VARIABLES ~~~ */
+/* Colors name from https://www.htmlcsscolor.com */
+/* any global variables (like colors) go here --var-name: value */
+
+:root {
+  --open-sans: Roboto, Arial, sans-serif;
+
+  --white: #ffffff;
+  --black: #000000;
+  --black-opacity-09: #000000e6;
+  --kilamanjaro: #0c0c0cdf;
+  --nero: #1a1a1a;
+  --tide-opacity-01: #b7b3ae1a;
+  --ghost: #b8b8b9;
+  --dark-gray: #a5a5a5;
+  --sandy: #f2c67c;
+  --blush: #edb67e;
+  --selective-yellow: #ffb606;
+  --lavender-two: #c190ec;
+  --green: #008000;
+  --red: #ff0000;
+  --freeSpeechRed: #cc0000;
+  --bgc-main: #b7b3ae1f;
+  --turquoise-blue: #75d9e5;
+  --modal-backdrop: #b7b3ae73;
+
+  --box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.15);
+
+  --header-height: 80px;
+}
+
+/* ~~~ ANIMATION ~~~ */
+
+
+/* ~~~ RESET ~~~ */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video, button {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1.4;
+  font-family: var(--open-sans);
+  font-weight: 400;
+  -webkit-font-smoothing: antialiased;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+a {
+  font-size: inherit;
+  font-weight: inherit;
+  color: inherit;
+  text-decoration: none;
+}
+img {
+  text-indent: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+/* ~~~ FONTS ~~~ */
+@font-face {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-display: block;
+  font-style: normal;
+}
