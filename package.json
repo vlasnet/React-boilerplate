@@ -37,6 +37,7 @@
     "extract-text-webpack-plugin": "^3.0.2",
     "file-loader": "^2.0.0",
     "file-saver": "^2.0.0",
+    "formik": "^1.4.3",
     "fs-extra": "^7.0.1",
     "global": "^4.3.2",
     "history": "^4.7.2",

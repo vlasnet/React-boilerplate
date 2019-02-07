@@ -1,0 +1,43 @@
+.DayPicker-wrapper {
+  min-height: 290px;
+  background-color: var(--tide-opacity-01);
+  border: 1px solid var(--sandy);
+  border-radius: 5px;
+  outline: none;
+}
+
+.DayPicker-Day.DayPicker-Day--selected:not(.DayPicker-Day--disabled):not(.DayPicker-Day--outside) {
+  color: var(--kilamanjaro);
+  background-color: var(--selective-yellow);
+  font-weight: 700;
+}
+
+.DayPicker:not(.DayPicker--interactionDisabled) .DayPicker-Day:not(.DayPicker-Day--disabled):not(.DayPicker-Day--selected):not(.DayPicker-Day--outside):hover {
+  color: var(--black);
+  background-color: var(--white);
+}
+
+.DayPicker-Day {
+  border-radius: 0;
+  color: var(--black);
+  font-weight: 500;
+}
+
+.DayPicker-Day--today {
+  color: var(--freeSpeechRed);
+  border: 1px solid var(--selective-yellow);
+  font-weight: 700;
+}
+
+.DayPicker-Weekday {
+  display: table-cell;
+  padding: 0.5em;
+  text-align: center;
+  font-size: 0.875em;
+  color: var(--blush);
+}
+
+.DayPicker-Weekday abbr[title=Saturday],
+.DayPicker-Weekday abbr[title=Sunday] {
+  color: var(--red);
+}

@@ -1,0 +1,48 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  min-width: 300px;
+  max-width: 450px;
+  margin: 0 auto;
+  padding: 10px 15px;
+  border: 1px solid var(--dark-gray);
+  border-radius: 5px;
+}
+
+.fieldWrapper {
+  margin-top: 10px;
+  padding-bottom: 20px;
+  position: relative;
+}
+
+.fieldWrapper:first-of-type {
+  margin-top: 0;
+}
+
+.formField {
+  width: 100%;
+  padding: 10px;
+}
+
+.submit {
+  display: block;
+  margin: 10px auto 0;
+  padding: 10px 20px;
+  font-weight: 600;
+  color: var(--selective-yellow);
+  background-color: var(--kilamanjaro);
+  cursor: pointer;
+}
+
+.submit:hover {
+  color: var(--kilamanjaro);
+  background-color: var(--selective-yellow);
+}
+
+.error {
+  position: absolute;
+  top: 40px;
+  left: 0;
+  font-size: 16px;
+  color: var(--freeSpeechRed);
+}
